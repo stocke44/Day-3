@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Srisakdi');
+body{
+    font-family: 'Srisakdi', cursive;
+    color:black;
+} 
+
+.container-fluid{
+    background-color: gray;
+}
+
+@media(min-width:580px) {
+    .container-fluid{
+        background-color: aquamarine;
+    }
+}
